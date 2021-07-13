@@ -1072,13 +1072,15 @@ NS Package M08A</description>
 <text x="0" y="3.429" size="1.27" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.429" size="1.27" layer="27" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
-<package name="TQFP32_0.8MM_7X7MM" urn="urn:adsk.eagle:footprint:29239414/3" library_version="44">
+<package name="TQFP32_0.8MM_7X7MM" urn="urn:adsk.eagle:footprint:29239414/4" library_version="46">
 <description>&lt;B&gt;Thin Plasic Quad Flat Package&lt;/B&gt; Grid 0.8 mm</description>
-<wire x1="3.505" y1="3.505" x2="3.505" y2="-3.505" width="0.1524" layer="21"/>
-<wire x1="3.505" y1="-3.505" x2="-3.505" y2="-3.505" width="0.1524" layer="21"/>
-<wire x1="-3.505" y1="-3.505" x2="-3.505" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="3.505" x2="3.505" y2="3.505" width="0.1524" layer="21"/>
 <wire x1="-3.048" y1="3.505" x2="-3.505" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="3.5" y1="3.5" x2="3.2" y2="3.5" width="0.1524" layer="21"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="3.2" width="0.1524" layer="21"/>
+<wire x1="3.5" y1="-3.5" x2="3.5" y2="-3.2" width="0.1524" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="-3.2" width="0.1524" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.2" y2="-3.5" width="0.1524" layer="21"/>
+<wire x1="3.5" y1="-3.5" x2="3.2" y2="-3.5" width="0.1524" layer="21"/>
 <smd name="1" x="-4.2926" y="2.8" dx="1.905" dy="0.5588" layer="1" roundness="100"/>
 <smd name="2" x="-4.2926" y="2" dx="1.905" dy="0.5588" layer="1" roundness="100"/>
 <smd name="3" x="-4.2926" y="1.2" dx="1.905" dy="0.5588" layer="1" roundness="100"/>
@@ -1319,7 +1321,7 @@ wide body 7.5 mm/JEDEC MS-013AA</description>
 <wire x1="-3.556" y1="-3.556" x2="3.556" y2="-3.556" width="0.127" layer="21"/>
 <wire x1="3.556" y1="-3.556" x2="3.556" y2="-1.27" width="0.127" layer="21"/>
 </package>
-<package name="JSTPH3" urn="urn:adsk.eagle:footprint:29813433/1" library_version="44">
+<package name="JSTPH3" urn="urn:adsk.eagle:footprint:29813433/2" library_version="46">
 <wire x1="-5" y1="4" x2="5" y2="4" width="0.2032" layer="51"/>
 <wire x1="5" y1="4" x2="5" y2="-3.5" width="0.2032" layer="51"/>
 <wire x1="-5" y1="-3.5" x2="-5" y2="4" width="0.2032" layer="51"/>
@@ -1332,7 +1334,7 @@ wide body 7.5 mm/JEDEC MS-013AA</description>
 <wire x1="5" y1="0.5" x2="5" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="5" y1="-3.5" x2="4.15" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="4.15" y1="-3.5" x2="4.15" y2="-1" width="0.127" layer="21"/>
-<wire x1="4.15" y1="-1" x2="0.75" y2="-1" width="0.127" layer="21"/>
+<wire x1="4.15" y1="-1" x2="2.75" y2="-1" width="0.127" layer="21"/>
 <wire x1="-2.75" y1="-1" x2="-4.15" y2="-1" width="0.127" layer="21"/>
 <wire x1="-4.15" y1="-1" x2="-4.15" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="-4.15" y1="-3.5" x2="-5" y2="-3.5" width="0.127" layer="21"/>
@@ -1567,7 +1569,7 @@ NS Package M08A</description>
 <packageinstance name="TACTILE_SWITCH_SMD_6.2MM"/>
 </packageinstances>
 </package3d>
-<package3d name="TQFP32_0.8MM_7X7MM" urn="urn:adsk.eagle:package:29239415/4" type="model" library_version="44">
+<package3d name="TQFP32_0.8MM_7X7MM" urn="urn:adsk.eagle:package:29239415/5" type="model" library_version="46">
 <description>&lt;B&gt;Thin Plasic Quad Flat Package&lt;/B&gt; Grid 0.8 mm</description>
 <packageinstances>
 <packageinstance name="TQFP32_0.8MM_7X7MM"/>
@@ -1615,7 +1617,7 @@ wide body 7.5 mm/JEDEC MS-013AA</description>
 <packageinstance name="L_7.3MM"/>
 </packageinstances>
 </package3d>
-<package3d name="JSTPH3" urn="urn:adsk.eagle:package:29802586/2" type="box" library_version="44">
+<package3d name="JSTPH3" urn="urn:adsk.eagle:package:29802586/3" type="box" library_version="46">
 <packageinstances>
 <packageinstance name="JSTPH3"/>
 </packageinstances>
@@ -2148,7 +2150,7 @@ Sourc: www.ctscorp.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA328P" urn="urn:adsk.eagle:component:29239417/4" prefix="IC" library_version="44">
+<deviceset name="ATMEGA328P" urn="urn:adsk.eagle:component:29239417/5" prefix="IC" library_version="46">
 <gates>
 <gate name="G$1" symbol="ATMEGA328P" x="0" y="0"/>
 </gates>
@@ -2189,7 +2191,7 @@ Sourc: www.ctscorp.com</description>
 <connect gate="G$1" pin="VCC@6" pad="6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29239415/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29239415/5"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2368,7 +2370,7 @@ Sourc: www.ctscorp.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="JST_3PIN" urn="urn:adsk.eagle:component:29802591/2" prefix="CN" uservalue="yes" library_version="44">
+<deviceset name="JST_3PIN" urn="urn:adsk.eagle:component:29802591/3" prefix="CN" uservalue="yes" library_version="46">
 <gates>
 <gate name="G$1" symbol="PINHD3" x="0" y="0"/>
 </gates>
@@ -2380,7 +2382,7 @@ Sourc: www.ctscorp.com</description>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29802586/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29802586/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2515,7 +2517,7 @@ Sourc: www.ctscorp.com</description>
 </classes>
 <parts>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="CONTROL"/>
-<part name="IC3" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="ATMEGA328P" device="TQFP" package3d_urn="urn:adsk.eagle:package:29239415/4"/>
+<part name="IC3" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="ATMEGA328P" device="TQFP" package3d_urn="urn:adsk.eagle:package:29239415/5"/>
 <part name="C3" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="CAPACITOR" device="1206" package3d_urn="urn:adsk.eagle:package:29221566/3" value="10u"/>
 <part name="C4" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="CAPACITOR" device="0805" package3d_urn="urn:adsk.eagle:package:29221576/3" value="100n"/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -2615,14 +2617,14 @@ Sourc: www.ctscorp.com</description>
 <part name="S6" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="TACTILE_SWITCH" device="6.2MM" package3d_urn="urn:adsk.eagle:package:29283492/4" value="TACTILE_SWITCH6.2MM"/>
 <part name="S7" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="TACTILE_SWITCH" device="6.2MM" package3d_urn="urn:adsk.eagle:package:29283492/4" value="TACTILE_SWITCH6.2MM"/>
 <part name="S8" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="TACTILE_SWITCH" device="6.2MM" package3d_urn="urn:adsk.eagle:package:29283492/4" value="TACTILE_SWITCH6.2MM"/>
-<part name="CN1" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/2"/>
-<part name="CN2" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/2"/>
-<part name="CN3" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/2"/>
-<part name="CN4" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/2"/>
-<part name="CN5" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/2"/>
-<part name="CN6" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/2"/>
-<part name="CN7" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/2"/>
-<part name="CN8" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/2"/>
+<part name="CN1" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/3"/>
+<part name="CN2" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/3"/>
+<part name="CN3" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/3"/>
+<part name="CN4" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/3"/>
+<part name="CN5" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/3"/>
+<part name="CN6" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/3"/>
+<part name="CN7" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/3"/>
+<part name="CN8" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="JST_3PIN" device="" package3d_urn="urn:adsk.eagle:package:29802586/3"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:29221563/3" value="GREEN"/>
 <part name="R1" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="RESISTOR" device="0805" package3d_urn="urn:adsk.eagle:package:29221574/3" value="1k"/>

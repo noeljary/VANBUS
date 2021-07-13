@@ -959,13 +959,15 @@ NS Package M08A</description>
 <text x="0" y="3.429" size="1.27" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3.429" size="1.27" layer="27" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
-<package name="TQFP32_0.8MM_7X7MM" urn="urn:adsk.eagle:footprint:29239414/3" library_version="44">
+<package name="TQFP32_0.8MM_7X7MM" urn="urn:adsk.eagle:footprint:29239414/4" library_version="46">
 <description>&lt;B&gt;Thin Plasic Quad Flat Package&lt;/B&gt; Grid 0.8 mm</description>
-<wire x1="3.505" y1="3.505" x2="3.505" y2="-3.505" width="0.1524" layer="21"/>
-<wire x1="3.505" y1="-3.505" x2="-3.505" y2="-3.505" width="0.1524" layer="21"/>
-<wire x1="-3.505" y1="-3.505" x2="-3.505" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="3.505" x2="3.505" y2="3.505" width="0.1524" layer="21"/>
 <wire x1="-3.048" y1="3.505" x2="-3.505" y2="3.048" width="0.1524" layer="21"/>
+<wire x1="3.5" y1="3.5" x2="3.2" y2="3.5" width="0.1524" layer="21"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="3.2" width="0.1524" layer="21"/>
+<wire x1="3.5" y1="-3.5" x2="3.5" y2="-3.2" width="0.1524" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="-3.2" width="0.1524" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.2" y2="-3.5" width="0.1524" layer="21"/>
+<wire x1="3.5" y1="-3.5" x2="3.2" y2="-3.5" width="0.1524" layer="21"/>
 <smd name="1" x="-4.2926" y="2.8" dx="1.905" dy="0.5588" layer="1" roundness="100"/>
 <smd name="2" x="-4.2926" y="2" dx="1.905" dy="0.5588" layer="1" roundness="100"/>
 <smd name="3" x="-4.2926" y="1.2" dx="1.905" dy="0.5588" layer="1" roundness="100"/>
@@ -1207,7 +1209,7 @@ NS Package M08A</description>
 <pad name="P$3" x="0.508" y="-0.508" drill="0.35" diameter="0.6096"/>
 <pad name="P$4" x="-0.508" y="-0.508" drill="0.35" diameter="0.6096"/>
 </package>
-<package name="90X20_CAPACITIVE_TOUCH" urn="urn:adsk.eagle:footprint:29809240/7" library_version="44">
+<package name="90X20_CAPACITIVE_TOUCH" urn="urn:adsk.eagle:footprint:29809240/8" library_version="45">
 <polygon width="0.127" layer="1">
 <vertex x="-45" y="10"/>
 <vertex x="-42.5" y="10"/>
@@ -2200,14 +2202,8 @@ NS Package M08A</description>
 <vertex x="43.75" y="-11.5"/>
 </polygon>
 <polygon width="0.127" layer="21">
-<vertex x="-45" y="-10"/>
 <vertex x="-45" y="10"/>
 <vertex x="44.75" y="10"/>
-<vertex x="45" y="10"/>
-</polygon>
-<polygon width="0.127" layer="22">
-<vertex x="-45" y="-10"/>
-<vertex x="-45" y="10"/>
 <vertex x="45" y="10"/>
 </polygon>
 <smd name="P$1" x="-44" y="10" dx="1.016" dy="0.2032" layer="1" roundness="100" rot="R90" stop="no" thermals="no" cream="no"/>
@@ -2410,7 +2406,7 @@ NS Package M08A</description>
 <packageinstance name="TACTILE_SWITCH_SMD_6.2MM"/>
 </packageinstances>
 </package3d>
-<package3d name="TQFP32_0.8MM_7X7MM" urn="urn:adsk.eagle:package:29239415/4" type="model" library_version="44">
+<package3d name="TQFP32_0.8MM_7X7MM" urn="urn:adsk.eagle:package:29239415/5" type="model" library_version="46">
 <description>&lt;B&gt;Thin Plasic Quad Flat Package&lt;/B&gt; Grid 0.8 mm</description>
 <packageinstances>
 <packageinstance name="TQFP32_0.8MM_7X7MM"/>
@@ -2458,7 +2454,7 @@ NS Package M08A</description>
 <packageinstance name="QFN28_0.45MM_4X4MM"/>
 </packageinstances>
 </package3d>
-<package3d name="90X20_CAPACITIVE_TOUCH" urn="urn:adsk.eagle:package:29809241/8" type="empty" library_version="44">
+<package3d name="90X20_CAPACITIVE_TOUCH" urn="urn:adsk.eagle:package:29809241/9" type="empty" library_version="45">
 <packageinstances>
 <packageinstance name="90X20_CAPACITIVE_TOUCH"/>
 </packageinstances>
@@ -3411,7 +3407,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA328P" urn="urn:adsk.eagle:component:29239417/4" prefix="IC" library_version="44">
+<deviceset name="ATMEGA328P" urn="urn:adsk.eagle:component:29239417/5" prefix="IC" library_version="46">
 <gates>
 <gate name="G$1" symbol="ATMEGA328P" x="0" y="0"/>
 </gates>
@@ -3452,7 +3448,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <connect gate="G$1" pin="VCC@6" pad="6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29239415/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29239415/5"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3640,7 +3636,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITIVE_TOUCH" urn="urn:adsk.eagle:component:29809242/8" prefix="T" library_version="44">
+<deviceset name="CAPACITIVE_TOUCH" urn="urn:adsk.eagle:component:29809242/9" prefix="T" library_version="45">
 <gates>
 <gate name="G$1" symbol="CAPACITIVE_TOUCH" x="0" y="0"/>
 </gates>
@@ -3658,7 +3654,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <connect gate="G$1" pin="Y0" pad="P$9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29809241/8"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29809241/9"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3795,7 +3791,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 </classes>
 <parts>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device="" value="CONTROL"/>
-<part name="IC1" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="ATMEGA328P" device="TQFP" package3d_urn="urn:adsk.eagle:package:29239415/4"/>
+<part name="IC1" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="ATMEGA328P" device="TQFP" package3d_urn="urn:adsk.eagle:package:29239415/5"/>
 <part name="C1" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="CAPACITOR" device="1206" package3d_urn="urn:adsk.eagle:package:29221566/3" value="10u"/>
 <part name="C2" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="CAPACITOR" device="0805" package3d_urn="urn:adsk.eagle:package:29221576/3" value="100n"/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -3858,7 +3854,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <part name="L1" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="INDUCTOR" device="7.3MM" package3d_urn="urn:adsk.eagle:package:29523487/3" value="12u"/>
 <part name="GND57" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC2" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="AT42QT2160" device="" package3d_urn="urn:adsk.eagle:package:29808736/4"/>
-<part name="T1" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="CAPACITIVE_TOUCH" device="" package3d_urn="urn:adsk.eagle:package:29809241/8"/>
+<part name="T1" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="CAPACITIVE_TOUCH" device="" package3d_urn="urn:adsk.eagle:package:29809241/9"/>
 <part name="R1" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="RESISTOR" device="0805" package3d_urn="urn:adsk.eagle:package:29221574/3" value="1k"/>
 <part name="R2" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="RESISTOR" device="0805" package3d_urn="urn:adsk.eagle:package:29221574/3" value="1k"/>
 <part name="R3" library="SMD" library_urn="urn:adsk.eagle:library:29221540" deviceset="RESISTOR" device="0805" package3d_urn="urn:adsk.eagle:package:29221574/3" value="1k"/>
